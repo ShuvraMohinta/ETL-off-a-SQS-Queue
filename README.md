@@ -1,6 +1,6 @@
 # ETL-off-a-SQS-Queue
 
-# Your objective is to:
+# Objective:
 1. read JSON data containing user login behavior from an AWS SQS Queue, that is made
 available via a custom localstack image that has the data pre loaded.
 2. Fetch wants to hide personal identifiable information (PII). The fields `device_id` and `ip`
